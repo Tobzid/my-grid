@@ -50,3 +50,62 @@
         width: 500px;
     }
 }*/
+
+
+
+
+
+
+/* The styling of the layout starts here, where a website page can be styled into different session including side sections */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    width: 1024px;
+}
+
+
+
+body{
+    background-color: aqua;
+}
+
+.wrapper{
+    width: 1024px;
+    height: 220px;
+    background-color: crimson;
+}
+
+.banner{
+    width: 1024px;
+    height: 35px;
+    background: blue;
+}
+
+.leftSide{
+    width: 220px;
+    height: 438px;
+    background-color: green;
+    float: left;
+}
+
+.rightSide{
+    width: 220px;
+    height: 438px;
+    background-color: brown;
+    float: right;
+}
+
+.content{
+    width: 584px;
+    height: 438px;
+    background-color: yellow;
+}
+
+.footer{
+    width: 1024px;
+    height: 75px;
+    background-color: white;
+}
